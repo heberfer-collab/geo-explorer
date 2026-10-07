@@ -1,0 +1,592 @@
+{
+  "trilhas": [
+    {
+      "id": "javascript",
+      "nome": "JavaScript Moderno",
+      "descricao": "Domine o JavaScript do zero ao avançado, cobrindo ES6+, assincronismo e muito mais.",
+      "icone": "🟨",
+      "duracao": "12 semanas",
+      "niveis": ["iniciante", "intermediario", "avancado"],
+      "modulos": [
+        {
+          "nivel": "iniciante",
+          "titulo": "Fundamentos do JavaScript",
+          "topicos": [
+            "Variáveis e tipos de dados (var, let, const)",
+            "Operadores e expressões",
+            "Estruturas de controle (if, switch, loops)",
+            "Funções básicas e escopo",
+            "Arrays e objetos literais",
+            "DOM manipulation básica"
+          ],
+          "projetos": ["Calculadora simples", "Lista de tarefas", "Quiz interativo"],
+          "recursos": [
+            { "tipo": "documentacao", "nome": "MDN Web Docs - JavaScript", "url": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" },
+            { "tipo": "pratica", "nome": "JavaScript.info", "url": "https://javascript.info" }
+          ]
+        },
+        {
+          "nivel": "intermediario",
+          "titulo": "JavaScript ES6+ e Assincronismo",
+          "topicos": [
+            "Arrow functions e template literals",
+            "Destructuring e spread/rest",
+            "Promises e async/await",
+            "Fetch API e requisições HTTP",
+            "Módulos ES6 (import/export)",
+            "Classes e herança",
+            "Map, Set, WeakMap, WeakSet"
+          ],
+          "projetos": ["Consumidor de API pública", "Gerenciador de contatos", "App de clima"],
+          "recursos": [
+            { "tipo": "documentacao", "nome": "ES6 Features", "url": "https://es6-features.org" },
+            { "tipo": "pratica", "nome": "Exercism - JavaScript Track", "url": "https://exercism.org/tracks/javascript" }
+          ]
+        },
+        {
+          "nivel": "avancado",
+          "titulo": "Padrões Avançados e Performance",
+          "topicos": [
+            "Closures e currying",
+            "Programação funcional com JS",
+            "Generators e iterators",
+            "Web Workers e Service Workers",
+            "Otimização de performance",
+            "Testes com Jest",
+            "Design patterns em JS"
+          ],
+          "projetos": ["Framework MVC próprio", "PWA completo", "Pipeline de build customizado"],
+          "recursos": [
+            { "tipo": "livro", "nome": "You Don't Know JS (série)", "url": "https://github.com/getify/You-Dont-Know-JS" },
+            { "tipo": "pratica", "nome": "Advent of Code", "url": "https://adventofcode.com" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "python",
+      "nome": "Python para Desenvolvimento",
+      "descricao": "Aprenda Python do básico ao avançado com foco em automação, APIs e ciência de dados.",
+      "icone": "🐍",
+      "duracao": "10 semanas",
+      "niveis": ["iniciante", "intermediario", "avancado"],
+      "modulos": [
+        {
+          "nivel": "iniciante",
+          "titulo": "Primeiros Passos com Python",
+          "topicos": [
+            "Sintaxe básica e tipos de dados",
+            "Listas, tuplas e dicionários",
+            "Controle de fluxo (if, for, while)",
+            "Funções e módulos",
+            "Leitura e escrita de arquivos",
+            "Tratamento de exceções"
+          ],
+          "projetos": ["Conversor de unidades", "Jogo de adivinhação", "Analisador de texto"],
+          "recursos": [
+            { "tipo": "documentacao", "nome": "Documentação oficial Python", "url": "https://docs.python.org/pt-br/3/" },
+            { "tipo": "pratica", "nome": "Python.org Tutorial", "url": "https://docs.python.org/3/tutorial/" }
+          ]
+        },
+        {
+          "nivel": "intermediario",
+          "titulo": "Python Intermediário e APIs",
+          "topicos": [
+            "Programação orientada a objetos",
+            "Decorators e gerenciadores de contexto",
+            "Comprehensions (list, dict, set)",
+            "Requests e consumo de APIs",
+            "SQLite com Python",
+            "Testes com pytest",
+            "Virtual environments e pip"
+          ],
+          "projetos": ["API REST com Flask", "Web scraper", "Gerenciador de tarefas com banco"],
+          "recursos": [
+            { "tipo": "framework", "nome": "Flask Documentation", "url": "https://flask.palletsprojects.com" },
+            { "tipo": "pratica", "nome": "Real Python", "url": "https://realpython.com" }
+          ]
+        },
+        {
+          "nivel": "avancado",
+          "titulo": "Python Avançado e Data Science",
+          "topicos": [
+            "Async IO e concorrência",
+            "Metaclasses e descritores",
+            "NumPy e Pandas básico",
+            "Machine Learning com scikit-learn",
+            "FastAPI para APIs modernas",
+            "Docker com Python",
+            "CI/CD para projetos Python"
+          ],
+          "projetos": ["Pipeline de dados completo", "API com autenticação JWT", "Modelo de ML em produção"],
+          "recursos": [
+            { "tipo": "documentacao", "nome": "FastAPI Docs", "url": "https://fastapi.tiangolo.com" },
+            { "tipo": "livro", "nome": "Python Cookbook", "url": "https://www.oreilly.com/library/view/python-cookbook-3rd/9781449357337/" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "typescript",
+      "nome": "TypeScript Full Stack",
+      "descricao": "Desenvolvimento full stack tipado com TypeScript, cobrindo frontend e backend.",
+      "icone": "🔷",
+      "duracao": "14 semanas",
+      "niveis": ["iniciante", "intermediario", "avancado"],
+      "modulos": [
+        {
+          "nivel": "iniciante",
+          "titulo": "Introdução ao TypeScript",
+          "topicos": [
+            "Configuração do ambiente (tsconfig)",
+            "Tipos básicos e inferência",
+            "Interfaces e type aliases",
+            "Funções tipadas",
+            "Classes com tipagem",
+            "Compilação e integração com Node.js"
+          ],
+          "projetos": ["Conversor de tipos", "CRUD tipado simples", "CLI com TypeScript"],
+          "recursos": [
+            { "tipo": "documentacao", "nome": "TypeScript Handbook", "url": "https://www.typescriptlang.org/docs/handbook/" },
+            { "tipo": "pratica", "nome": "TypeScript Playground", "url": "https://www.typescriptlang.org/play" }
+          ]
+        },
+        {
+          "nivel": "intermediario",
+          "titulo": "TypeScript Avançado e React",
+          "topicos": [
+            "Generics e utility types",
+            "Union, intersection e conditional types",
+            "Decorators e metadados",
+            "React com TypeScript",
+            "Hooks tipados",
+            "Zod para validação de schemas",
+            "API com Express + TypeScript"
+          ],
+          "projetos": ["SPA React tipada", "API REST tipada", "Design system com componentes"],
+          "recursos": [
+            { "tipo": "framework", "nome": "React TypeScript Cheatsheet", "url": "https://react-typescript-cheatsheet.netlify.app" },
+            { "tipo": "pratica", "nome": "Total TypeScript", "url": "https://www.totaltypescript.com" }
+          ]
+        },
+        {
+          "nivel": "avancado",
+          "titulo": "Patterns e Arquitetura Full Stack",
+          "topicos": [
+            "Type-level programming",
+            "Template literal types",
+            "Monorepos com Turborepo",
+            "tRPC para APIs end-to-end typesafe",
+            "Next.js com TypeScript",
+            "Testing com Vitest",
+            "Deploy e CI/CD"
+          ],
+          "projetos": ["Monorepo full stack completo", "App Next.js com autenticação", "SDK tipado para API"],
+          "recursos": [
+            { "tipo": "framework", "nome": "tRPC Documentation", "url": "https://trpc.io/docs" },
+            { "tipo": "livro", "nome": "Effective TypeScript", "url": "https://effectivetypescript.com" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "react",
+      "nome": "React e Ecossistema",
+      "descricao": "Construa interfaces modernas e reativas com React, hooks, estado global e muito mais.",
+      "icone": "⚛️",
+      "duracao": "12 semanas",
+      "niveis": ["iniciante", "intermediario", "avancado"],
+      "modulos": [
+        {
+          "nivel": "iniciante",
+          "titulo": "Fundamentos do React",
+          "topicos": [
+            "JSX e renderização",
+            "Componentes funcionais",
+            "Props e state básico",
+            "Hooks essenciais (useState, useEffect)",
+            "Listas e keys",
+            "Formulários controlados"
+          ],
+          "projetos": ["Contador interativo", "Lista de tarefas", "Galeria de imagens"],
+          "recursos": [
+            { "tipo": "documentacao", "nome": "React Docs (react.dev)", "url": "https://react.dev" },
+            { "tipo": "pratica", "nome": "Scrimba - React Course", "url": "https://scrimba.com/learn/learnreact" }
+          ]
+        },
+        {
+          "nivel": "intermediario",
+          "titulo": "Estado Global e Roteamento",
+          "topicos": [
+            "Context API e useReducer",
+            "React Router v6",
+            "Zustand para estado global",
+            "React Query para server state",
+            "Formulários com React Hook Form",
+            "Testes com React Testing Library",
+            "Performance (memo, useCallback, useMemo)"
+          ],
+          "projetos": ["E-commerce frontend", "Dashboard com gráficos", "App de blog com roteamento"],
+          "recursos": [
+            { "tipo": "documentacao", "nome": "Zustand GitHub", "url": "https://github.com/pmndrs/zustand" },
+            { "tipo": "pratica", "nome": "React Query Docs", "url": "https://tanstack.com/query/latest" }
+          ]
+        },
+        {
+          "nivel": "avancado",
+          "titulo": "Arquitetura e Otimização",
+          "topicos": [
+            "React Server Components",
+            "Suspense e Error Boundaries",
+            "Microfrontends",
+            "Storybook para documentação de componentes",
+            "Análise de bundle e code splitting",
+            "Acessibilidade (a11y)",
+            "Testes E2E com Playwright"
+          ],
+          "projetos": ["Design system publicado no npm", "App com SSR/SSG", "Microfrontend com Module Federation"],
+          "recursos": [
+            { "tipo": "documentacao", "nome": "Storybook Docs", "url": "https://storybook.js.org" },
+            { "tipo": "ferramenta", "nome": "Playwright Docs", "url": "https://playwright.dev" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nodejs",
+      "nome": "Node.js e APIs",
+      "descricao": "Desenvolvimento backend com Node.js, criando APIs robustas, escaláveis e seguras.",
+      "icone": "🟩",
+      "duracao": "10 semanas",
+      "niveis": ["iniciante", "intermediario", "avancado"],
+      "modulos": [
+        {
+          "nivel": "iniciante",
+          "titulo": "Node.js do Zero",
+          "topicos": [
+            "Event loop e arquitetura Node.js",
+            "Módulos nativos (fs, path, http)",
+            "NPM e gerenciamento de pacotes",
+            "Criando um servidor HTTP básico",
+            "Express.js fundamentos",
+            "Variáveis de ambiente com dotenv"
+          ],
+          "projetos": ["API de hello world", "Servidor de arquivos estáticos", "CRUD em memória com Express"],
+          "recursos": [
+            { "tipo": "documentacao", "nome": "Node.js Docs", "url": "https://nodejs.org/en/docs/" },
+            { "tipo": "pratica", "nome": "NodeSchool", "url": "https://nodeschool.io" }
+          ]
+        },
+        {
+          "nivel": "intermediario",
+          "titulo": "APIs REST e Banco de Dados",
+          "topicos": [
+            "RESTful API design",
+            "Middlewares no Express",
+            "Autenticação com JWT",
+            "Banco de dados com Prisma ORM",
+            "Validação com Zod",
+            "Upload de arquivos com Multer",
+            "Testes de API com Supertest"
+          ],
+          "projetos": ["API de blog completa", "Sistema de autenticação", "API de upload de imagens"],
+          "recursos": [
+            { "tipo": "documentacao", "nome": "Prisma Docs", "url": "https://www.prisma.io/docs" },
+            { "tipo": "pratica", "nome": "REST API Tutorial", "url": "https://restfulapi.net" }
+          ]
+        },
+        {
+          "nivel": "avancado",
+          "titulo": "Arquitetura e Microsserviços",
+          "topicos": [
+            "Clean Architecture em Node.js",
+            "Microsserviços com Docker",
+            "Message queues com RabbitMQ",
+            "GraphQL com Apollo Server",
+            "WebSockets com Socket.io",
+            "Monitoramento com Prometheus",
+            "Deploy na AWS/GCP"
+          ],
+          "projetos": ["Sistema de microsserviços", "API GraphQL completa", "Chat em tempo real"],
+          "recursos": [
+            { "tipo": "documentacao", "nome": "Apollo GraphQL Docs", "url": "https://www.apollographql.com/docs/" },
+            { "tipo": "livro", "nome": "Node.js Design Patterns", "url": "https://www.nodejsdesignpatterns.com" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "devops",
+      "nome": "DevOps e Cloud",
+      "descricao": "Aprenda DevOps moderno com Docker, CI/CD, Kubernetes e cloud computing.",
+      "icone": "☁️",
+      "duracao": "16 semanas",
+      "niveis": ["iniciante", "intermediario", "avancado"],
+      "modulos": [
+        {
+          "nivel": "iniciante",
+          "titulo": "Fundamentos DevOps",
+          "topicos": [
+            "Cultura DevOps e princípios ágeis",
+            "Git avançado (branching, rebase, hooks)",
+            "Linux básico para DevOps",
+            "Docker: imagens, containers e volumes",
+            "Docker Compose para multi-containers",
+            "Scripts de automação Bash"
+          ],
+          "projetos": ["Dockerizar uma aplicação web", "Ambiente de dev com Docker Compose", "Script de deploy automatizado"],
+          "recursos": [
+            { "tipo": "documentacao", "nome": "Docker Docs", "url": "https://docs.docker.com" },
+            { "tipo": "pratica", "nome": "Play with Docker", "url": "https://labs.play-with-docker.com" }
+          ]
+        },
+        {
+          "nivel": "intermediario",
+          "titulo": "CI/CD e Infraestrutura como Código",
+          "topicos": [
+            "GitHub Actions workflows",
+            "GitLab CI/CD pipelines",
+            "Terraform fundamentos",
+            "Ansible para configuração",
+            "Kubernetes: pods, deployments, services",
+            "Helm charts",
+            "Monitoramento com Grafana"
+          ],
+          "projetos": ["Pipeline CI/CD completo", "Infraestrutura AWS com Terraform", "Cluster K8s local com Minikube"],
+          "recursos": [
+            { "tipo": "documentacao", "nome": "Kubernetes Docs", "url": "https://kubernetes.io/docs/home/" },
+            { "tipo": "pratica", "nome": "Katacoda", "url": "https://www.katacoda.com" }
+          ]
+        },
+        {
+          "nivel": "avancado",
+          "titulo": "Cloud Avançado e SRE",
+          "topicos": [
+            "AWS/GCP/Azure arquiteturas avançadas",
+            "Site Reliability Engineering (SRE)",
+            "Chaos Engineering",
+            "Service mesh com Istio",
+            "GitOps com ArgoCD",
+            "Segurança em DevOps (DevSecOps)",
+            "FinOps e otimização de custos"
+          ],
+          "projetos": ["Arquitetura serverless completa", "Implementar SLOs e alertas", "Pipeline de segurança automatizado"],
+          "recursos": [
+            { "tipo": "certificacao", "nome": "AWS Solutions Architect", "url": "https://aws.amazon.com/certification/" },
+            { "tipo": "livro", "nome": "The DevOps Handbook", "url": "https://itrevolution.com/book/the-devops-handbook/" }
+          ]
+        }
+      ]
+    }
+  ],
+  "desafios": {
+    "javascript": {
+      "iniciante": [
+        {
+          "titulo": "Verificador de Palíndromo",
+          "descricao": "Crie uma função que verifica se uma string é um palíndromo (lê-se igual de frente para trás, ignorando espaços e capitalização).",
+          "exemplo_entrada": "racecar",
+          "exemplo_saida": "true",
+          "dica": "Normalize a string com toLowerCase() e compare com a versão reversed",
+          "template": "function isPalindromo(str) {\n  // Seu código aqui\n}\n\nconsole.log(isPalindromo('racecar')); // true\nconsole.log(isPalindromo('hello'));   // false"
+        },
+        {
+          "titulo": "FizzBuzz Clássico",
+          "descricao": "Imprima números de 1 a 100. Para múltiplos de 3 imprima 'Fizz', para múltiplos de 5 imprima 'Buzz', para múltiplos de ambos imprima 'FizzBuzz'.",
+          "exemplo_entrada": "Nenhuma (iterar de 1 a 100)",
+          "exemplo_saida": "1, 2, Fizz, 4, Buzz, Fizz, ...",
+          "dica": "Use o operador módulo (%) para verificar divisibilidade",
+          "template": "for (let i = 1; i <= 100; i++) {\n  // Seu código aqui\n}"
+        }
+      ],
+      "intermediario": [
+        {
+          "titulo": "Agrupador de Anagramas",
+          "descricao": "Dada uma lista de palavras, agrupe as que são anagramas entre si.",
+          "exemplo_entrada": "['eat', 'tea', 'tan', 'ate', 'nat', 'bat']",
+          "exemplo_saida": "[['eat','tea','ate'], ['tan','nat'], ['bat']]",
+          "dica": "Ordene as letras de cada palavra como chave do agrupamento",
+          "template": "function agruparAnagramas(palavras) {\n  // Seu código aqui\n}\n\nconsole.log(agruparAnagramas(['eat','tea','tan','ate','nat','bat']));"
+        },
+        {
+          "titulo": "Promise Race com Timeout",
+          "descricao": "Crie uma função que executa uma promise com timeout: se a promise não resolver antes do tempo limite, rejeita com 'Timeout!'.",
+          "exemplo_entrada": "promiseComTimeout(fetch('https://api.exemplo.com'), 3000)",
+          "exemplo_saida": "Resultado da promise ou Error: Timeout!",
+          "dica": "Use Promise.race() combinando a promise original com um setTimeout",
+          "template": "function promiseComTimeout(promise, ms) {\n  // Seu código aqui\n}"
+        }
+      ],
+      "avancado": [
+        {
+          "titulo": "Implementar um EventEmitter",
+          "descricao": "Implemente uma classe EventEmitter do zero com os métodos on(), off(), emit() e once().",
+          "exemplo_entrada": "emitter.on('click', handler); emitter.emit('click', data)",
+          "exemplo_saida": "handler chamado com data",
+          "dica": "Use um Map para armazenar os listeners por evento",
+          "template": "class EventEmitter {\n  constructor() {\n    // Seu código aqui\n  }\n  on(event, listener) { /* ... */ }\n  off(event, listener) { /* ... */ }\n  emit(event, ...args) { /* ... */ }\n  once(event, listener) { /* ... */ }\n}"
+        }
+      ]
+    },
+    "python": {
+      "iniciante": [
+        {
+          "titulo": "Contador de Palavras",
+          "descricao": "Crie uma função que recebe um texto e retorna um dicionário com a frequência de cada palavra.",
+          "exemplo_entrada": "'the quick brown fox jumps over the lazy fox'",
+          "exemplo_saida": "{'the': 2, 'quick': 1, 'brown': 1, 'fox': 2, ...}",
+          "dica": "Use split() para separar as palavras e um dict para contagem",
+          "template": "def contar_palavras(texto):\n    # Seu código aqui\n    pass\n\nprint(contar_palavras('the quick brown fox jumps over the lazy fox'))"
+        }
+      ],
+      "intermediario": [
+        {
+          "titulo": "Decorador de Cache (Memoize)",
+          "descricao": "Crie um decorador Python que faz cache dos resultados de uma função (memoização).",
+          "exemplo_entrada": "@memoize\ndef fibonacci(n): ...",
+          "exemplo_saida": "Fibonacci calculado com cache",
+          "dica": "Use um dicionário para armazenar resultados anteriores via closure",
+          "template": "def memoize(func):\n    # Seu código aqui\n    pass\n\n@memoize\ndef fibonacci(n):\n    if n <= 1:\n        return n\n    return fibonacci(n-1) + fibonacci(n-2)\n\nprint(fibonacci(35))"
+        }
+      ],
+      "avancado": [
+        {
+          "titulo": "Async Pipeline de Dados",
+          "descricao": "Crie um pipeline assíncrono usando asyncio que busca dados de múltiplas 'APIs' simuladas em paralelo e consolida os resultados.",
+          "exemplo_entrada": "await pipeline(['url1', 'url2', 'url3'])",
+          "exemplo_saida": "Lista consolidada de resultados",
+          "dica": "Use asyncio.gather() para execução paralela",
+          "template": "import asyncio\n\nasync def buscar_dados(url):\n    # Simula uma chamada de API\n    await asyncio.sleep(0.1)\n    return {'url': url, 'dados': 'resultado'}\n\nasync def pipeline(urls):\n    # Seu código aqui\n    pass\n\nasyncio.run(pipeline(['api1', 'api2', 'api3']))"
+        }
+      ]
+    },
+    "typescript": {
+      "iniciante": [
+        {
+          "titulo": "Tipagem de Objetos Aninhados",
+          "descricao": "Crie tipos TypeScript para representar um sistema de usuários com perfil, endereço e permissões. Implemente uma função que valida se o usuário é administrador.",
+          "exemplo_entrada": "usuario: Usuario",
+          "exemplo_saida": "boolean (é admin ou não)",
+          "dica": "Use interfaces para estruturas de dados e unions para campos opcionais",
+          "template": "// Defina os tipos aqui\ninterface Usuario {\n  // ...\n}\n\nfunction ehAdmin(usuario: Usuario): boolean {\n  // Seu código aqui\n  return false;\n}"
+        }
+      ],
+      "intermediario": [
+        {
+          "titulo": "Generic Repository Pattern",
+          "descricao": "Implemente um repositório genérico em TypeScript com métodos findById, findAll, save e delete.",
+          "exemplo_entrada": "const repo = new Repository<Usuario>(dados)",
+          "exemplo_saida": "CRUD completo e tipado",
+          "dica": "Use generics para que o repositório funcione com qualquer tipo de entidade",
+          "template": "class Repository<T extends { id: string }> {\n  private items: T[] = [];\n  \n  findById(id: string): T | undefined {\n    // Seu código aqui\n  }\n  \n  findAll(): T[] {\n    // Seu código aqui\n  }\n  \n  save(item: T): T {\n    // Seu código aqui\n  }\n  \n  delete(id: string): boolean {\n    // Seu código aqui\n  }\n}"
+        }
+      ],
+      "avancado": [
+        {
+          "titulo": "Conditional Types Avançado",
+          "descricao": "Crie um tipo DeepReadonly<T> que torna todas as propriedades de um objeto (inclusive aninhadas) readonly.",
+          "exemplo_entrada": "type Config = DeepReadonly<{ db: { host: string; port: number } }>",
+          "exemplo_saida": "Tipo com todas as propriedades readonly recursivamente",
+          "dica": "Use conditional types e mapped types em conjunto",
+          "template": "type DeepReadonly<T> = {\n  // Seu código aqui\n};\n\n// Teste:\ntype Config = DeepReadonly<{ db: { host: string; port: number }; debug: boolean }>;"
+        }
+      ]
+    },
+    "react": {
+      "iniciante": [
+        {
+          "titulo": "Componente de Toggle",
+          "descricao": "Crie um componente React Toggle que alterna entre dois estados (ligado/desligado) e recebe callbacks para cada estado.",
+          "exemplo_entrada": "<Toggle onOn={() => console.log('ligado')} onOff={() => console.log('desligado')} />",
+          "exemplo_saida": "Botão que alterna estado visualmente",
+          "dica": "Use useState para controlar o estado do toggle",
+          "template": "import { useState } from 'react';\n\ninterface ToggleProps {\n  onOn?: () => void;\n  onOff?: () => void;\n}\n\nfunction Toggle({ onOn, onOff }: ToggleProps) {\n  // Seu código aqui\n  return <button>Toggle</button>;\n}\n\nexport default Toggle;"
+        }
+      ],
+      "intermediario": [
+        {
+          "titulo": "Custom Hook useLocalStorage",
+          "descricao": "Crie um custom hook useLocalStorage que sincroniza estado com o localStorage do navegador.",
+          "exemplo_entrada": "const [nome, setNome] = useLocalStorage('nome', '')",
+          "exemplo_saida": "Estado que persiste no localStorage",
+          "dica": "Combine useState com useEffect para sincronizar com localStorage",
+          "template": "import { useState, useEffect } from 'react';\n\nfunction useLocalStorage<T>(key: string, valorInicial: T) {\n  // Seu código aqui\n  return [valorInicial, () => {}] as const;\n}\n\nexport default useLocalStorage;"
+        }
+      ],
+      "avancado": [
+        {
+          "titulo": "Implementar Virtual List",
+          "descricao": "Crie um componente VirtualList que renderiza apenas os itens visíveis de uma lista muito grande (virtualização).",
+          "exemplo_entrada": "<VirtualList items={[...10000 items]} itemHeight={40} containerHeight={400} />",
+          "exemplo_saida": "Lista fluida que renderiza apenas ~10 itens por vez",
+          "dica": "Use scroll position para calcular o índice inicial e o número de itens a renderizar",
+          "template": "import { useState, useRef } from 'react';\n\ninterface VirtualListProps<T> {\n  items: T[];\n  itemHeight: number;\n  containerHeight: number;\n  renderItem: (item: T, index: number) => React.ReactNode;\n}\n\nfunction VirtualList<T>({ items, itemHeight, containerHeight, renderItem }: VirtualListProps<T>) {\n  // Seu código aqui\n  return <div>Virtual List</div>;\n}"
+        }
+      ]
+    },
+    "nodejs": {
+      "iniciante": [
+        {
+          "titulo": "Servidor de Arquivos Estáticos",
+          "descricao": "Crie um servidor HTTP com Node.js puro (sem frameworks) que serve arquivos estáticos de uma pasta, retornando o Content-Type correto.",
+          "exemplo_entrada": "GET /index.html",
+          "exemplo_saida": "Conteúdo do arquivo com header Content-Type correto",
+          "dica": "Use fs.readFile e o módulo path para determinar o tipo MIME",
+          "template": "const http = require('http');\nconst fs = require('fs');\nconst path = require('path');\n\nconst server = http.createServer((req, res) => {\n  // Seu código aqui\n});\n\nserver.listen(3000, () => console.log('Servidor rodando na porta 3000'));"
+        }
+      ],
+      "intermediario": [
+        {
+          "titulo": "Rate Limiter Middleware",
+          "descricao": "Implemente um middleware Express de rate limiting que limita requisições por IP (ex: máximo 100 requisições por minuto).",
+          "exemplo_entrada": "app.use(rateLimiter({ windowMs: 60000, max: 100 }))",
+          "exemplo_saida": "429 Too Many Requests quando limite é atingido",
+          "dica": "Use um Map para rastrear requisições por IP com cleanup periódico",
+          "template": "function rateLimiter({ windowMs, max }) {\n  const requests = new Map();\n  \n  return (req, res, next) => {\n    // Seu código aqui\n  };\n}"
+        }
+      ],
+      "avancado": [
+        {
+          "titulo": "Worker Pool com Threads",
+          "descricao": "Implemente um pool de worker threads para processamento paralelo de tarefas CPU-intensivas.",
+          "exemplo_entrada": "const pool = new WorkerPool(4); await pool.run(tarefaPesada)",
+          "exemplo_saida": "Tarefa executada em worker thread disponível",
+          "dica": "Use worker_threads do Node.js com uma fila de tarefas e callbacks",
+          "template": "const { Worker, isMainThread, parentPort, workerData } = require('worker_threads');\n\nclass WorkerPool {\n  constructor(size) {\n    // Seu código aqui\n  }\n  \n  run(task) {\n    // Seu código aqui\n  }\n}"
+        }
+      ]
+    },
+    "devops": {
+      "iniciante": [
+        {
+          "titulo": "Dockerfile Multi-Stage",
+          "descricao": "Crie um Dockerfile multi-stage para uma aplicação Node.js que produz uma imagem final mínima (usando alpine).",
+          "exemplo_entrada": "docker build -t minha-app .",
+          "exemplo_saida": "Imagem Docker otimizada com menos de 100MB",
+          "dica": "Use FROM node:alpine AS builder para o build e copie apenas os artefatos necessários",
+          "template": "# Stage 1: Build\nFROM node:18-alpine AS builder\nWORKDIR /app\n# Seu código aqui\n\n# Stage 2: Production\nFROM node:18-alpine\nWORKDIR /app\n# Seu código aqui\n\nCMD [\"node\", \"dist/index.js\"]"
+        }
+      ],
+      "intermediario": [
+        {
+          "titulo": "GitHub Actions CI/CD",
+          "descricao": "Crie um workflow GitHub Actions que executa testes, verifica lint, faz build e publica uma imagem Docker no GitHub Container Registry.",
+          "exemplo_entrada": "push na branch main",
+          "exemplo_saida": "Pipeline CI/CD completo executando automaticamente",
+          "dica": "Use jobs paralelos para lint/test e sequencial para build/push",
+          "template": "name: CI/CD Pipeline\n\non:\n  push:\n    branches: [main]\n\njobs:\n  # Seu código aqui"
+        }
+      ],
+      "avancado": [
+        {
+          "titulo": "Kubernetes Deployment com HPA",
+          "descricao": "Crie manifests Kubernetes para um deployment com HorizontalPodAutoscaler, ConfigMap e Secret para uma API Node.js.",
+          "exemplo_entrada": "kubectl apply -f k8s/",
+          "exemplo_saida": "App rodando no Kubernetes com auto-scaling configurado",
+          "dica": "Configure resource requests/limits para que o HPA possa calcular métricas",
+          "template": "# deployment.yaml\napiVersion: apps/v1\nkind: Deployment\nmetadata:\n  name: minha-api\n# Seu código aqui\n---\n# hpa.yaml\napiVersion: autoscaling/v2\nkind: HorizontalPodAutoscaler\n# Seu código aqui"
+        }
+      ]
+    }
+  }
+}

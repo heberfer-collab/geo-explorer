@@ -1,0 +1,7 @@
+node_modules/
+dist/
+mcp/build/
+mcp/node_modules/
+certificates/*.html
+.env
+*.log

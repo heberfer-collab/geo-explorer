@@ -1,0 +1,24 @@
+{
+  "name": "geo-explorer",
+  "version": "1.0.0",
+  "description": "Explorador de trilhas de aprendizagem com desafios de código e certificados fictícios",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start:trilha": "node --input-type=module",
+    "test": "node --experimental-vm-modules node_modules/.bin/jest --passWithNoTests",
+    "trilha": "node dist/commands/trilha.js",
+    "desafio": "node dist/commands/desafio.js",
+    "certificado": "node dist/commands/certificado.js"
+  },
+  "keywords": ["trilhas", "aprendizagem", "desafios", "certificados"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "zod": "^3.23.0"
+  }
+}
